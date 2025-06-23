@@ -65,9 +65,9 @@ p {
 }
 
 #play-button {
-  padding: 2rem 4rem; /* Doble de tamaño original */
-  font-size: 3rem; /* Doble del tamaño estimado anterior */
-  font-weight: bold;
+  padding: 1.5rem 2.5rem;
+  -size: 1.5rem;
+  -weight: bold;
   text-transform: uppercase;
   background: linear-gradient(45deg, #ffd700, #b8860b); /* Dorado brillante a oscuro */
   border: none;
