@@ -109,12 +109,13 @@ p {
 }
 
 .feature-card {
-  background: rgba(255, 215, 0, 0.08); /* Fondo dorado translúcido */
+  background: #FFD700; /* Fondo dorado sólido */
   padding: 2rem;
   border-radius: 1rem;
-  border: 1px solid rgba(255, 215, 0, 0.2); /* Bordes dorados */
+  border: 1px solid #FFD700; /* Bordes dorados */
   transition: transform 0.3s;
 }
+
 
 .feature-card:hover {
   transform: translateY(-10px);
