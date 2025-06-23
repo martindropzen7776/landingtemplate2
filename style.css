@@ -65,9 +65,9 @@ p {
 }
 
 #play-button {
-  padding: 1rem 2rem;
-  -size: 1.5rem;
-  -weight: bold;
+  padding: 2rem 4rem; /* Doble de tamaño original */
+  font-size: 3rem; /* Doble del tamaño estimado anterior */
+  font-weight: bold;
   text-transform: uppercase;
   background: linear-gradient(45deg, #ffd700, #b8860b); /* Dorado brillante a oscuro */
   border: none;
@@ -82,6 +82,7 @@ p {
 #play-button:hover {
   transform: scale(1.05);
 }
+
 
 .button-glow {
   position: absolute;
