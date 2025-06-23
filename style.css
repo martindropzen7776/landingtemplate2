@@ -66,7 +66,7 @@ p {
 
 #play-button {
   padding: 1.5rem 3rem; /* Aumentado un poco */
-  font-size: 1.75rem;   /* Más grande pero no exagerado */
+  font-size: 1.50rem;   /* Más grande pero no exagerado */
   font-weight: bold;
   text-transform: uppercase;
   background: linear-gradient(45deg, #ffd700, #b8860b); /* Dorado brillante a oscuro */
