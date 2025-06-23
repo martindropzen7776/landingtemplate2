@@ -122,13 +122,13 @@ p {
 }
 
 .feature-card h3 {
-  color: #ffd700; /* Título dorado */
+  color: #FFFFFF; /* Título dorado */
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
 .feature-card p {
-  color: #ffd700; /* Texto dorado */
+  color: #FFFFFF; /* Texto dorado */
   font-size: 1rem;
   margin: 0;
 }
