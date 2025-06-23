@@ -77,25 +77,28 @@ p {
   position: relative;
   overflow: hidden;
   transition: transform 0.3s;
-  animation: pulse 2s infinite;
+  animation: pulse 1.5s infinite;
 }
 
 #play-button:hover {
   transform: scale(1.05);
 }
 
-/* Animación de pulso */
 @keyframes pulse {
   0% {
     transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 215, 0, 0.4);
   }
   50% {
-    transform: scale(1.03);
+    transform: scale(1.07);
+    box-shadow: 0 0 15px 5px rgba(255, 215, 0, 0.5);
   }
   100% {
     transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 215, 0, 0.4);
   }
 }
+
 
 
 
