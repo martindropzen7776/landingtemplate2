@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background: #000; /* Fondo negro */
   color: #ffd700; /* Texto dorado */
   overflow-x: hidden;
@@ -53,7 +53,7 @@ h1 {
 }
 
 p {
-  font-size: 1.5rem;
+  -size: 1.5rem;
   color: #ffd700; /* Texto dorado */
   margin-bottom: 2rem;
 }
@@ -66,8 +66,8 @@ p {
 
 #play-button {
   padding: 1rem 2rem;
-  font-size: 1.5rem;
-  font-weight: bold;
+  -size: 1.5rem;
+  -weight: bold;
   text-transform: uppercase;
   background: linear-gradient(45deg, #ffd700, #b8860b); /* Dorado brillante a oscuro */
   border: none;
