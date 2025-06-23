@@ -66,7 +66,7 @@ p {
 
 #play-button {
   padding: 1.5rem 2.5rem;
-  -size: 1.5rem;
+  -size: 2rem;
   -weight: bold;
   text-transform: uppercase;
   background: linear-gradient(45deg, #ffd700, #b8860b); /* Dorado brillante a oscuro */
