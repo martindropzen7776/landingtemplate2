@@ -65,11 +65,11 @@ p {
 }
 
 #play-button {
-  padding: 1.5rem 3rem; /* Aumentado un poco */
-  font-size: 1.50rem;   /* Más grande pero no exagerado */
+  padding: 1.5rem 3rem;
+  font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
-  background: linear-gradient(45deg, #ffd700, #b8860b); /* Dorado brillante a oscuro */
+  background: linear-gradient(45deg, #ffd700, #b8860b);
   border: none;
   border-radius: 50px;
   color: black;
@@ -77,11 +77,26 @@ p {
   position: relative;
   overflow: hidden;
   transition: transform 0.3s;
+  animation: pulse 2s infinite;
 }
 
 #play-button:hover {
   transform: scale(1.05);
 }
+
+/* Animación de pulso */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 
 
 
